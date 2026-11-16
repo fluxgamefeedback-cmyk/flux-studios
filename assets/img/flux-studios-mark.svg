@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="FLUX Studios">
+<defs><linearGradient id="m" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#5edbfa"/><stop offset=".58" stop-color="#a5abff"/><stop offset="1" stop-color="#f7ba74"/></linearGradient></defs>
+<rect x="4" y="4" width="88" height="88" rx="24" fill="#0a1426" stroke="#375a7c" stroke-width="2"/>
+<path d="M24 60 48 18 72 60 48 77Z" fill="none" stroke="url(#m)" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="48" cy="48" r="10" fill="#0a1426" stroke="#c8f6ff" stroke-width="4"/>
+<path d="M15 48h21M60 48h21" stroke="#57c8f0" stroke-width="3" stroke-linecap="round"/>
+</svg>
