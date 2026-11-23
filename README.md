@@ -1,8 +1,11 @@
 # FLUX Studios — Unified GitHub Pages Site
 
-One integrated, build-free static site with a **single shared navigation, footer, contact form, theme selector and studio identity** across all five pages.
+One integrated, build-free static site with a **single shared navigation, footer, contact form, theme selector and studio identity** across the studio pages.
 
 ## Pages
+- `/games/` — dedicated, theme-aware game library listing built titles only (FLUX and Word Imposter)
+- `/games/word-imposter/` — Word Imposter live multiplayer party game overview; links to the separate Render-hosted game
+
 - `/` — FLUX Studios homepage, 3D crystal and game library
 - `/games/flux-elements-awaken/` — FLUX: Elements Awaken game, modes, editions and card archive
 - `/games/elemental-surge/` — Elemental Surge digital mode
@@ -27,7 +30,7 @@ Flux Neon, Elemental Spectrum and Midnight Violet are shared across routes and s
 The site is HTML/CSS/JavaScript only, no bundler and no paid hosting. Cross-page navigation and shared components can be checked locally by opening `index.html`; a local HTTP server is best for comprehensive tests. Fonts may require an internet connection; a system fallback remains. Google Forms iframe requires internet and that form's access be public.
 
 ## Future edits
-The shared shell is maintained in `assets/css/site-shell.css` and `assets/js/site-shell.js`. The five HTML pages contain copies of the identical shared header/footer markup so navigation remains visible even if JS is off. Keep those in sync if editing manually; or update using the integration builder when available.
+The shared shell is maintained in `assets/css/site-shell.css` and `assets/js/site-shell.js`. The HTML pages contain copies of the identical shared header/footer markup so navigation remains visible even if JS is off. Keep those in sync if editing manually; or update using the integration builder when available.
 
 This does not deploy the site automatically; it is ready for you to upload and publish.
 
